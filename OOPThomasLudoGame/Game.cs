@@ -7,17 +7,13 @@ namespace OOPThomasLudoGame
     class Game
     {
         private int numberOfPlayers;
-        public int NumberOfPlayers
-        { 
-            get { return numberOfPlayers; }
-            set { numberOfPlayers = NumberOfPlayers; }
-        }
         List<string> names = new List<string>();
         List<Player> players = new List<Player>();
         PlayerCreator playerCreator = new PlayerCreator();
         public void Play()
         {
-            players = playerCreator.PlayerCreating(NamePlayerList(NumberOfPlayers), PieceCreator.CreatePiece());
+            numberOfPlayers = int.Parse(Console.ReadLine());
+            players = playerCreator.PlayerCreating(NamePlayerList(numberOfPlayers), PieceCreator.CreatePiece());
         }
         public List<string> NamePlayerList(int numberOfPlayer)
         {
@@ -30,6 +26,12 @@ namespace OOPThomasLudoGame
             }
             return names;
         }
-        
+        public void GetString()
+        {
+            foreach (Player player in playerCreator.PlayerCreating(NamePlayerList(numberOfPlayers), PieceCreator.CreatePiece()))
+            {
+                Console.WriteLine(player.Name);
+            }
+        }
     }
 }

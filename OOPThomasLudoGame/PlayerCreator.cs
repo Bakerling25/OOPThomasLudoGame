@@ -9,7 +9,7 @@ namespace OOPThomasLudoGame
         public List<Player> PlayerCreating(List<string> name, List<Piece> pieces)
         {
             List<Player> players = new List<Player>();
-            for (int i = 1; i <= name.Count; i++)
+            for (int i = 0; i < name.Count; i++)
             {
                 players.Add(new Player()
                 {

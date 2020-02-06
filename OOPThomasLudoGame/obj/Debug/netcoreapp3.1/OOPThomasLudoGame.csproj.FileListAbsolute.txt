@@ -1,0 +1,11 @@
+C:\Users\xycad\source\repos\OOPThomasLudoGame\OOPThomasLudoGame\bin\Debug\netcoreapp3.1\OOPThomasLudoGame.exe
+C:\Users\xycad\source\repos\OOPThomasLudoGame\OOPThomasLudoGame\bin\Debug\netcoreapp3.1\OOPThomasLudoGame.deps.json
+C:\Users\xycad\source\repos\OOPThomasLudoGame\OOPThomasLudoGame\bin\Debug\netcoreapp3.1\OOPThomasLudoGame.runtimeconfig.json
+C:\Users\xycad\source\repos\OOPThomasLudoGame\OOPThomasLudoGame\bin\Debug\netcoreapp3.1\OOPThomasLudoGame.runtimeconfig.dev.json
+C:\Users\xycad\source\repos\OOPThomasLudoGame\OOPThomasLudoGame\bin\Debug\netcoreapp3.1\OOPThomasLudoGame.dll
+C:\Users\xycad\source\repos\OOPThomasLudoGame\OOPThomasLudoGame\bin\Debug\netcoreapp3.1\OOPThomasLudoGame.pdb
+C:\Users\xycad\source\repos\OOPThomasLudoGame\OOPThomasLudoGame\obj\Debug\netcoreapp3.1\OOPThomasLudoGame.csprojAssemblyReference.cache
+C:\Users\xycad\source\repos\OOPThomasLudoGame\OOPThomasLudoGame\obj\Debug\netcoreapp3.1\OOPThomasLudoGame.AssemblyInfoInputs.cache
+C:\Users\xycad\source\repos\OOPThomasLudoGame\OOPThomasLudoGame\obj\Debug\netcoreapp3.1\OOPThomasLudoGame.AssemblyInfo.cs
+C:\Users\xycad\source\repos\OOPThomasLudoGame\OOPThomasLudoGame\obj\Debug\netcoreapp3.1\OOPThomasLudoGame.dll
+C:\Users\xycad\source\repos\OOPThomasLudoGame\OOPThomasLudoGame\obj\Debug\netcoreapp3.1\OOPThomasLudoGame.pdb
