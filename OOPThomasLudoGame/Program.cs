@@ -6,7 +6,10 @@ namespace OOPThomasLudoGame
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hvor mange spillere? ");
+            int numberOfPlayers = int.Parse(Console.ReadLine());
+            Game game = new Game();
+            game.NumberOfPlayers = numberOfPlayers;
         }
     }
 }

@@ -4,7 +4,12 @@ using System.Text;
 
 namespace OOPThomasLudoGame
 {
-    class PieceColor
+  public enum PieceColor
     {
+        Red,
+        Blue,
+        Green,
+        Yellow
     }
+    
 }
