@@ -8,22 +8,29 @@ namespace OOPThomasLudoGame
     {
         public static List<Piece> CreatePiece()
         {
+            int counter = 1;
             List<Piece> pieces = new List<Piece>();
             foreach (PieceColor pieceColor in Enum.GetValues(typeof(PieceColor)))
             {
+
                 for (int pieceNum = 1; pieceNum < 5; pieceNum++)
                 {
                     pieces.Add(new Piece()
                     {
-                        color = pieceColor,
+                        Color = pieceColor,
                         PieceNumber = pieceNum,
+                        IsAtHome = true,
+                        BoardPosition = counter,
                         IsAtGoal = false,
-                        pos = 0
+                        Position = 0
                     });
                 }
-
+                counter++;
+                
             }
             return pieces;
         }
+       
     }
+    
 }

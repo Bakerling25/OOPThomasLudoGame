@@ -14,8 +14,10 @@ namespace OOPThomasLudoGame
                 players.Add(new Player()
                 {
                     Name = name[i],
-                    Pieces = PlayerPieces(i, pieces),
-                    HasPlayerOnePieceOnBoard = false
+                    Pieces = PlayerPieces(i + 1, pieces),
+                    HasPlayerPieceOnBoard = false,
+                    HasPlayerWon = false,
+                    PlayerIndentifier = i + 1
                 });
             }
             return players;

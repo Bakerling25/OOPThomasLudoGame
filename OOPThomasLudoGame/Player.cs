@@ -8,7 +8,9 @@ namespace OOPThomasLudoGame
     {
         private string name;
         private List<Piece> pieces;
-        private bool hasPlayerOnePieceOnBoard;
+        private bool hasPlayerPieceOnBoard;
+        private bool hasPlayerWon;
+        private int playerIndentifier;
         public string Name
         { 
             get { return name; }
@@ -19,10 +21,20 @@ namespace OOPThomasLudoGame
             get { return pieces; }
             set {pieces = value; }
         }
-        public bool HasPlayerOnePieceOnBoard
+        public bool HasPlayerPieceOnBoard
         {
-            get {return hasPlayerOnePieceOnBoard; }
-            set {hasPlayerOnePieceOnBoard = value; }
+            get {return hasPlayerPieceOnBoard; }
+            set {hasPlayerPieceOnBoard = value; }
+        }
+        public int PlayerIndentifier
+        {
+            get { return playerIndentifier; }
+            set { playerIndentifier = value; }
+        }
+        public bool HasPlayerWon
+        {
+            get {return hasPlayerWon; }
+            set { hasPlayerWon = value; }
         }
 
 

@@ -14,6 +14,10 @@ namespace OOPThomasLudoGame
         {
             numberOfPlayers = int.Parse(Console.ReadLine());
             players = playerCreator.PlayerCreating(NamePlayerList(numberOfPlayers), PieceCreator.CreatePiece());
+            foreach (Player player in players)
+            {
+                PlayTurn(player);
+            }
         }
         public List<string> NamePlayerList(int numberOfPlayer)
         {
@@ -26,12 +30,14 @@ namespace OOPThomasLudoGame
             }
             return names;
         }
-        public void GetString()
+        public void PlayTurn(Player player)
         {
-            foreach (Player player in playerCreator.PlayerCreating(NamePlayerList(numberOfPlayers), PieceCreator.CreatePiece()))
-            {
-                Console.WriteLine(player.Name);
-            }
+            Console.WriteLine("Det er din " + player.Name);
         }
+        public bool IsItSix(int diceNum)
+        {
+
+        }
+       
     }
 }

@@ -9,7 +9,6 @@ namespace OOPThomasLudoGame
             Console.WriteLine("Hvor mange spillere? ");
             Game game = new Game();
             game.Play();
-            game.GetString();
             Console.ReadLine();
         }
     }
